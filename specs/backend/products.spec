@@ -10,3 +10,13 @@ tags: product
 ## The total number of products in backend is matching the one from db
 
 * Total number of products is correct.
+
+## Keyword search works as expected
+
+* Searching for a word through products
+    | Word       | Status |
+    |----------- |--------|
+    | python     | true   |
+    | asfasf     | false  |
+    | javaSCRIPT | true   |
+    | 412414     | false  |
